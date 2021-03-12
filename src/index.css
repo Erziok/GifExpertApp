@@ -4,6 +4,7 @@
 
 body{
   padding: 60px;
+  background-color: #394654;
 }
 
 input{
@@ -35,4 +36,12 @@ input{
 
 .card img{
   max-height: 170px;
+}
+
+.main-footer{
+  max-height: 40px;
+}
+
+.barra-texto{
+  border-radius: 15px;
 }

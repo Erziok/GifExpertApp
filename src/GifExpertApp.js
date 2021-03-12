@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { AddCategory } from './components/AddCategory'
 import { GifGrid } from './components/GifGrid'
+import Footer from './components/Footer';
 
 export const GifExpertApp = () => {
 
@@ -12,8 +13,10 @@ export const GifExpertApp = () => {
 
     return (
         <>
-            <h2>GifExpertApp</h2>
+            <h2 className="text-white">GifExpertApp</h2>
+            
             <AddCategory setCategories={ setCategories }/>
+
             <hr />
 
             
@@ -28,8 +31,12 @@ export const GifExpertApp = () => {
                     ))
                 }
             </ol>
+            <hr></hr>
+            <Footer 
+                pie="Made With React - Erziok 2021"
+            />
         </>
-
+        
         
     )
 }

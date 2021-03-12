@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types';
+import '../index.css';
 
 export const AddCategory = ( {setCategories} ) => {
 
@@ -24,6 +25,7 @@ export const AddCategory = ( {setCategories} ) => {
 
         <form onSubmit={handleSubmit}>
             <input 
+                className="barra-texto"
                 type="text"
                 value= {inputValue}
                 onChange= { handleInputChange }

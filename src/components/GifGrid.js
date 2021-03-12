@@ -9,11 +9,11 @@ export const GifGrid = ({category}) => {
 
     return (
         <>
-            <h3 className="animate__animated animate__fadeInLeft">{category}</h3>
+            <h3 className="animate__animated animate__fadeInLeft text-white">{category}</h3>
 
-            {loading && <p className="animate__animated animate__flash">Loading</p>}
+            {loading && <p className="animate__animated animate__flash text-white">Loading...</p>}
 
-            <div className="card-grid">
+            <div className="card-grid ">
                 
 
                 {
